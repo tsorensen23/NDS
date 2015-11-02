@@ -1,5 +1,6 @@
 $(function() {
-  $('a').click(function() {
+  $(".button").on("click", function(e) {
+    e.preventDefault();
     var scrollVal = $(this).attr('href');
     var scrollTo = $(scrollVal);
     console.log(scrollTo.position());
@@ -8,4 +9,5 @@ $(function() {
     }, 1000);
     return false;
   });
+
 });
