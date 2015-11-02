@@ -246,11 +246,11 @@ ol,
 ul,
 li,
 button {
-  -webkit-transition: all 0.1s, ease-in-out;
-  -moz-transition: all 0.1s, ease-in-out;
-  -ms-transition: all 0.1s, ease-in-out;
-  -o-transition: all 0.1s, ease-in-out;
-  transition: all 0.1s, ease-in-out
+  -webkit-transition: all 0.375ms, ease-in-out;
+  -moz-transition: all 0.375ms, ease-in-out;
+  -ms-transition: all 0.375ms, ease-in-out;
+  -o-transition: all 0.375ms, ease-in-out;
+  transition: all 0.375ms, ease-in-out
 }
 
 .cover {
@@ -2375,13 +2375,13 @@ body {
     backface-visibility: hidden
   }
   ***
-  .nav-right {
+  /*.nav-right {
     -webkit-transform: translate3d(240px, 0, 0);
     -moz-transform: translate3d(240px, 0, 0);
     -ms-transform: translate3d(240px, 0, 0);
     -o-transform: translate3d(240px, 0, 0);
     transform: translate3d(240px, 0, 0)
-  }
+  }*/
   .nav-open {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -2396,7 +2396,6 @@ body {
     -o-transform: translate3d(-240px, 0, 0);
     transform: translate3d(-240px, 0, 0)
   }
-  #nav,
   #main {
     -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.16, 0.68, 0.43, 0.99);
     -moz-transition: -moz-transform 0.25s cubic-bezier(0.16, 0.68, 0.43, 0.99);
@@ -2432,9 +2431,16 @@ body {
     letter-spacing: 0.02em
   }
   #nav h3 {
-    font-size: 0.8em;
-    font-weight: normal;
+    font-size: 1em;
+    font-weight: bold;
     letter-spacing: 0.2em
+
+
+
+
+
+
+
   }
   #nav .float-left a,
   #nav .float-right a {
@@ -2500,24 +2506,13 @@ body {
 }
 
 .nav-transition {
-  -webkit-transition: all 0.500ms ease-out;
-  -moz-transition: all 0.500ms ease-out;
-  -ms-transition: all 0.500ms ease-out;
-  -o-transition: all 0.500ms ease-out;
-  transition: all 0.500ms ease-out
+  -webkit-transition: all 0.375ms ease-out;
+  -moz-transition: all 0.375ms ease-out;
+  -ms-transition: all 0.375ms ease-out;
+  -o-transition: all 0.375ms ease-out;
+  transition: all 0.375ms ease-out
 }
 
-.nav-down {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0)
-}
-
-.nav-up {
-  -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%)
-}
 
 #footer {
   padding-bottom: 6em
@@ -2597,7 +2592,7 @@ span.dash {
   width: 24px;
   height: 4px;
   background: #333333;
-  margin: 1em 0 1em
+  margin: 0 0 1em
 }
 
 article.home header p {
@@ -2719,12 +2714,8 @@ nav#nav .row ul a {
 }
 nav#nav .row ul a:hover {
   color: #FFF !important;
-  border-top: 2px solid white;
   border-bottom: 2px solid white;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  text-shadow: .5px .5px 1px #000;
 }
 
 nav#nav {
