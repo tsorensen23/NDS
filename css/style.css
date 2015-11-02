@@ -2326,24 +2326,6 @@ code {
   transition: all 0.375s ease-in-out
 }
 
-.white .button-svg .fill {
-  fill: white;
-  stroke: none
-}
-
-.white .button-svg .stroke {
-  fill: none;
-  stroke: white
-}
-
-.white:hover .button-svg .fill {
-  fill: #cecece
-}
-
-.white:hover .button-svg .stroke {
-  stroke: #cecece
-}
-
 body {
   overflow-x: hidden
 }
@@ -2605,13 +2587,13 @@ article.home section {
   padding: 30px
 }
 
-article.home section.gray {
+article.home section.white {
   padding: 6em 0 8em;
   margin-bottom: 4em;
-  background: #e5e5ea
+  background: #e2e2e2
 }
 
-article.home section.gray h2 {
+article.home section.white h2 {
   text-align: center;
   font-size: 2.4em;
   line-height: 1.7;
@@ -2619,7 +2601,7 @@ article.home section.gray h2 {
   letter-spacing: -0.01em
 }
 
-article.home section.gray .base-image {
+article.home section.white .base-image {
   display: block;
   width: 100%;
   background: #fff;
@@ -2628,22 +2610,22 @@ article.home section.gray .base-image {
   text-align: center
 }
 
-article.home section.gray .base-image img {
+article.home section.white .base-image img {
   padding: 80px 0
 }
 
-article.home section.gray h3 {
+article.home section.white h3 {
   font-size: 1.4em;
   line-height: 1.7;
   font-weight: 400;
   letter-spacing: -0.01em
 }
 
-article.home section.gray h4 {
+article.home section.white h4 {
   margin-bottom: 1em
 }
 
-article.home section.gray p {
+article.home section.white p {
   font-size: 1em
 }
 
