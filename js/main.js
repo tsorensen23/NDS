@@ -3,11 +3,11 @@ $(function() {
         e.preventDefault();
           console.log($($(this).attr('href')).offset().top);
         
-          var px = ($($(this).attr('href')).offset().top) + 500;
+          var px = ($($(this).attr('href')).offset().top);
     
         $("body, html").animate({ 
             scrollTop: px 
-        }, 600);
+        }, "slow");
         
     });
         
