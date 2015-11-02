@@ -7,21 +7,32 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-69608306-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 
 <body>
   <div id="main">
     <nav id="nav" class="nav-right" vocab="http://schema.org/" typeof="SiteNavigationElement" role="navigation">
       <div class="row">
-        <ul class="col-md-9 float-left">
-          <a property="url" class="nav-link" href="#about-us">
+        <ul class="col-md-5 col-md-offset-4 float-left">
+          <a property="url" class="nav-link" href="#about-us" tabindex="1">
             <li property="name">
               <h3>ABOUT</h3>
-            </li>
-          </a>
-          <a property="url" class="nav-link" href="#blog">
-            <li property="name">
-              <h3>BLOG</h3>
             </li>
           </a>
         </ul>
@@ -34,13 +45,8 @@
           </a>
         </ul>
 
-        <ul class="col-md-9 float-right">
-          <a property="url" class="nav-link" href="#fun">
-            <li property="name">
-              <h3>PORTFOLIO</h3>
-            </li>
-          </a>
-          <a property="url" class="nav-link" href="#footer">
+        <ul class="col-md-5 col-md-offset-1">
+          <a property="url" class="nav-link" href="#contact" tabindex="2">
             <li property="name">
               <h3>CONTACT</h3>
             </li>
@@ -60,11 +66,11 @@
           </div>
           <div class="col-xs-24 col-sm-12">
             <p>
-              NDS is a full service development firm. <br>Our focus is on developing niche products for universities, military and small businesses.
+              NDS is a full service development firm.
+              <br>Our focus is on developing niche products for universities, military and small businesses.
             </p>
             <p>
-              <br>From our humble beginnings, our team has grown to include Fullstack Developers, Designers, Product Managers and Business
-              Consultants.
+              <br>From our humble beginnings, our team has grown to include Fullstack Developers, Designers, Product Managers and Business Consultants.
             </p>
           </div>
         </div>
@@ -73,6 +79,13 @@
     <article class="home">
       <section class="white">
         <div id="about-us" class="row">
+          <div class="col-xs-24 text-xs-center">
+            <h2>
+              ABOUT US
+            </h2>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-xs-24 col-sm-12">
             <span class="dash"></span>
             <h2>
@@ -91,6 +104,13 @@
     </article>
     <article class="home">
       <section>
+        <div id="contact" class="row">
+          <div class="col-xs-24 text-xs-center">
+            <h2>
+              PROJECTS
+            </h2>
+          </div>
+        </div>
         <div class="row">
           <div class="col-xs-24 col-sm-12">
             <span class="dash"></span>
