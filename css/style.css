@@ -2489,7 +2489,16 @@ body {
 
 
 #footer {
-  padding-bottom: 6em
+  padding-bottom: 6em;
+  height: 200px;
+background: #e2e2e2;
+background: -moz-linear-gradient(left, #e2e2e2 0%, #f6f6f6 53%, #e2e2e2 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #e2e2e2), color-stop(53%, #f6f6f6), color-stop(100%, #e2e2e2));
+background: -webkit-linear-gradient(left, #e2e2e2 0%, #f6f6f6 53%, #e2e2e2 100%);
+background: -o-linear-gradient(left, #e2e2e2 0%, #f6f6f6 53%, #e2e2e2 100%);
+background: -ms-linear-gradient(left, #e2e2e2 0%, #f6f6f6 53%, #e2e2e2 100%);
+background: linear-gradient(to right, #e2e2e2 0%, #f6f6f6 53%, #e2e2e2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#e2e2e2', GradientType=1 );
 }
 
 #footer section {
